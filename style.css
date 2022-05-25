@@ -1,3 +1,29 @@
-body {
+nav {
+  list-style-type:none;
+  position: fixed;
+  background-color: #9B70FF;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left: 0;
+}
 
+li {
+  dislay: inline;
+  padding: 3%;
+  margin: 2px;
+  float: left;
+  width: 80px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+li a:hover {
+background-color: wheat
+font size: 25px
 }
